@@ -1,0 +1,100 @@
+ running on   64 total cores
+ distrk:  each k-point on    4 cores,   16 groups
+ distr:  one band on    1 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.3.5 31Mar14 (build Apr 15 2015 10:45:18) complex                        
+  
+ POSCAR found :  2 types and       2 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default, NPAR=number of cores might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Ceperly-Alder, standard interpolation
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.100021528817E+03    0.10002E+03   -0.80164E+03   512   0.940E+02
+DAV:   2    -0.273476295620E+01   -0.10276E+03   -0.97897E+02   640   0.235E+02
+DAV:   3    -0.622887507261E+01   -0.34941E+01   -0.34902E+01   608   0.455E+01
+DAV:   4    -0.626346953719E+01   -0.34594E-01   -0.34593E-01   808   0.397E+00
+DAV:   5    -0.626354300196E+01   -0.73465E-04   -0.73465E-04   640   0.173E-01    0.192E+00
+DAV:   6    -0.604356936161E+01    0.21997E+00   -0.36839E-01   632   0.758E+00    0.960E-01
+DAV:   7    -0.602231939625E+01    0.21250E-01   -0.80950E-02   600   0.191E+00    0.433E-01
+DAV:   8    -0.601971277513E+01    0.26066E-02   -0.91674E-03   600   0.111E+00    0.120E-01
+DAV:   9    -0.601946951213E+01    0.24326E-03   -0.11207E-03   632   0.401E-01    0.252E-02
+DAV:  10    -0.601944086108E+01    0.28651E-04   -0.11543E-04   632   0.142E-01    0.117E-02
+DAV:  11    -0.601944231901E+01   -0.14579E-05   -0.33116E-05   616   0.518E-02    0.448E-03
+DAV:  12    -0.601944172298E+01    0.59603E-06   -0.35320E-06   600   0.198E-02
+   1 F= -.60194417E+01 E0= -.60194417E+01  d E =-.601944E+01
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.360E-47 g(S)=  0.195E-01 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.195E-01
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.627964635492E+01   -0.26020E+00   -0.46235E+00   624   0.243E+01    0.282E+00
+DAV:   2    -0.604925621190E+01    0.23039E+00   -0.59175E-01   608   0.110E+01    0.766E-01
+DAV:   3    -0.602844472998E+01    0.20811E-01   -0.48795E-02   640   0.200E+00    0.213E-01
+DAV:   4    -0.602616739629E+01    0.22773E-02   -0.37938E-03   592   0.514E-01    0.809E-02
+DAV:   5    -0.602596350448E+01    0.20389E-03   -0.42804E-04   744   0.249E-01    0.247E-02
+DAV:   6    -0.602595225173E+01    0.11253E-04   -0.15038E-04   624   0.166E-01    0.598E-03
+DAV:   7    -0.602595193606E+01    0.31567E-06   -0.54838E-06   616   0.178E-02
+   2 F= -.60259519E+01 E0= -.60259519E+01  d E =-.651021E-02
+ trial-energy change:   -0.006510  1 .order   -0.006508   -0.019544    0.006527
+ step:   0.7496(harm=  0.7496)  dis= 0.00000  next Energy=    -6.026767 (dE=-0.733E-02)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.604239951520E+01   -0.16447E-01   -0.29330E-01   624   0.628E+00    0.689E-01
+DAV:   2    -0.602845192986E+01    0.13948E-01   -0.33894E-02   600   0.263E+00    0.201E-01
+DAV:   3    -0.602698444202E+01    0.14675E-02   -0.37044E-03   632   0.612E-01    0.488E-02
+DAV:   4    -0.602684939932E+01    0.13504E-03   -0.26938E-04   584   0.167E-01    0.191E-02
+DAV:   5    -0.602683732104E+01    0.12078E-04   -0.35971E-05   656   0.784E-02    0.856E-03
+DAV:   6    -0.602683545159E+01    0.18694E-05   -0.15430E-05   624   0.537E-02    0.141E-03
+DAV:   7    -0.602683549358E+01   -0.41990E-07   -0.42309E-07   288   0.390E-03
+   3 F= -.60268355E+01 E0= -.60268355E+01  d E =-.739377E-02
+ curvature:  -0.37 expect dE=-0.644E-06 dE for cont linesearch -0.644E-06
+ trial: gam= 0.00000 g(F)=  0.259E-47 g(S)=  0.172E-05 ort =-0.183E-03 (trialstep = 0.950E+00)
+ search vector abs. value=  0.172E-05
+ reached required accuracy - stopping structural energy minimisation
+ writing wavefunctions

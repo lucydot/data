@@ -1,0 +1,12 @@
+forrtl: Disk quota exceeded
+forrtl: severe (38): error during write, unit 70, file /fs2/e476/e476/lucydot/jobs/060/CHG
+Image              PC                Routine            Line        Source             
+vasp_std           00000000052FD704  Unknown               Unknown  Unknown
+vasp_std           0000000005344E87  Unknown               Unknown  Unknown
+vasp_std           0000000005342865  Unknown               Unknown  Unknown
+vasp_std           0000000000AB1E24  Unknown               Unknown  Unknown
+vasp_std           000000000167DCD6  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+[NID 04236] 2016-05-24 09:04:22 Apid 21778129: initiated application termination

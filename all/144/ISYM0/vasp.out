@@ -1,0 +1,60 @@
+ running on   24 total cores
+ distrk:  each k-point on   24 cores,    1 groups
+ distr:  one band on   24 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.1 24Jun15 (build Nov 25 2015 16:39:35) complex                        
+  
+ POSCAR found type information on POSCAR  Cd Te
+ POSCAR found :  2 types and       2 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default, NPAR=number of cores might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.110219338751E+03    0.11022E+03   -0.79387E+03 12136   0.109E+03
+DAV:   2     0.107000871177E+01   -0.10915E+03   -0.10527E+03 13116   0.273E+02
+DAV:   3    -0.415420498484E+01   -0.52242E+01   -0.51907E+01 14312   0.603E+01
+DAV:   4    -0.422280252454E+01   -0.68598E-01   -0.68568E-01 15100   0.598E+00
+DAV:   5    -0.422351338785E+01   -0.71086E-03   -0.71085E-03 13612   0.631E-01    0.112E+01
+DAV:   6    -0.486607045684E+01   -0.64256E+00   -0.53468E-01 12808   0.119E+01    0.561E+00
+DAV:   7    -0.489848701477E+01   -0.32417E-01   -0.22734E-01 12148   0.514E+00    0.339E+00
+DAV:   8    -0.489685261494E+01    0.16344E-02   -0.19140E-02 12528   0.122E+00    0.175E+00
+DAV:   9    -0.489710863838E+01   -0.25602E-03   -0.35930E-03 12584   0.953E-01    0.381E-01
+DAV:  10    -0.489756271368E+01   -0.45408E-03   -0.90285E-04 12324   0.360E-01    0.193E-01
+DAV:  11    -0.489767610789E+01   -0.11339E-03   -0.14618E-04 13016   0.880E-02    0.901E-02
+DAV:  12    -0.489774463675E+01   -0.68529E-04   -0.52498E-05 12836   0.554E-02    0.256E-02
+DAV:  13    -0.489776101559E+01   -0.16379E-04   -0.96268E-06 12872   0.217E-02    0.132E-02
+DAV:  14    -0.489776991019E+01   -0.88946E-05   -0.82315E-06 12196   0.173E-02    0.614E-03
+DAV:  15    -0.489777198713E+01   -0.20769E-05   -0.20069E-06 11168   0.842E-03    0.255E-03
+DAV:  16    -0.489777230150E+01   -0.31437E-06   -0.31986E-07  9300   0.364E-03
+   1 F= -.48977723E+01 E0= -.48977723E+01  d E =-.489777E+01  mag=    -0.0000    -0.0000    -0.0000
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.585E-12 g(S)=  0.973E-01 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.973E-01
+ writing wavefunctions
+Application 23557654 resources: utime ~3449s, stime ~35s, Rss ~60336, inblocks ~144416, outblocks ~640691

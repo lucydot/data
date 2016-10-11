@@ -1,0 +1,14 @@
+ vasp.5.4.1 24Jun15 (build Nov 25 2015 16:39:35) complex                        
+  
+ executed on         CrayXC-Intel date 2016.09.13  18:42:42
+ running on   96 total cores
+ distrk:  each k-point on   96 cores,    1 groups
+ distr:  one band on NCORES_PER_BAND=  24 cores,    4 groups
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ INCAR:
+ POTCAR:    PAW_PBE Cd 06Sep2000                  
+ POTCAR:    PAW_PBE Te 08Apr2002                  

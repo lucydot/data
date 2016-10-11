@@ -1,0 +1,727 @@
+ running on   96 total cores
+ distrk:  each k-point on   96 cores,    1 groups
+ distr:  one band on   24 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.1 24Jun15 (build Nov 25 2015 16:39:35) complex                        
+  
+ POSCAR found :  2 types and       2 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default, NPAR=number of cores might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You enforced a specific xc-type in the INCAR file,                     |
+|      a different type was found on the POTCAR file                          |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort
+DAV:   1     0.139448210624E+03    0.13945E+03   -0.85110E+03  6048   0.115E+03
+DAV:   2     0.331110332641E+02   -0.10634E+03   -0.10168E+03  6048   0.267E+02
+DAV:   3     0.279045268570E+02   -0.52065E+01   -0.51676E+01  6048   0.602E+01
+DAV:   4     0.278151308973E+02   -0.89396E-01   -0.89327E-01  6048   0.609E+00
+DAV:   5     0.278141761340E+02   -0.95476E-03   -0.95063E-03  6048   0.698E-01
+ gam= 0.000 g(H,U,f)=        NaN       NaN       NaN ort(H,U,f) =       NaN       NaN       NaN
+{    9,    1}:  On entry to {   11,    1}:  On entry to 
+{    0,    1}:  On entry to {    5,    1}:  On entry to {    2,    1}:  On entry to 
+PZSTEIN parameter number    4 had an illegal value {    6,    0}:  On entry to {   11,    0}:  On entry to {    8,    0}:  On entry to 
+
+{    1,    1}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+{    3,    1}:  On entry to 
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+PZSTEIN parameter number    4 had an illegal value 
+{    4,    1}:  On entry to 
+
+
+PZSTEIN parameter number    4 had an illegal value {   10,    0}:  On entry to 
+
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value {   10,    1}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+{    8,    1}:  On entry to 
+
+{    6,    1}:  On entry to {    5,    0}:  On entry to 
+
+PZSTEIN parameter number    4 had an illegal value 
+{    7,    0}:  On entry to PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+
+PZSTEIN parameter number    4 had an illegal value 
+
+
+PZSTEIN parameter number    4 had an illegal value 
+{    9,    0}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+{    3,    0}:  On entry to PZSTEIN parameter number    4 had an illegal value {    1,    0}:  On entry to 
+
+
+{    2,    0}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+{    7,    1}:  On entry to 
+{    4,    0}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+
+PZSTEIN parameter number    4 had an illegal value 
+PZSTEIN parameter number    4 had an illegal value 
+{    0,    0}:  On entry to 
+
+PZSTEIN parameter number    4 had an illegal value 
+PZSTEIN parameter number    4 had an illegal value 
+{    2,    6}:  On entry to {    6,    6}:  On entry to 
+{    1,    6}:  On entry to {   10,    6}:  On entry to {    4,    7}:  On entry to {   11,    7}:  On entry to {    8,    6}:  On entry to 
+
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+{    6,    4}:  On entry to {    4,    4}:  On entry to {   11,    4}:  On entry to {   10,    5}:  On entry to {    3,    4}:  On entry to 
+{    5,    4}:  On entry to {    7,    5}:  On entry to {    2,    5}:  On entry to {    9,    4}:  On entry to 
+{   10,    3}:  On entry to {    7,    2}:  On entry to 
+{    4,    3}:  On entry to {   11,    2}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+
+{    2,    2}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+{    5,    3}:  On entry to {    6,    2}:  On entry to {    3,    3}:  On entry to {    8,    2}:  On entry to 
+{    5,    2}:  On entry to {   11,    3}:  On entry to PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value {    2,    3}:  On entry to 
+{    1,    2}:  On entry to 
+
+
+
+
+{    1,    3}:  On entry to PZSTEIN parameter number    4 had an illegal value {    0,    3}:  On entry to {    7,    3}:  On entry to 
+
+PZSTEIN parameter number    4 had an illegal value 
+
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+
+{    4,    2}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+{    8,    3}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+PZSTEIN parameter number    4 had an illegal value 
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+{    9,    3}:  On entry to 
+{    0,    2}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+
+{    9,    2}:  On entry to PZSTEIN parameter number    4 had an illegal value {    3,    2}:  On entry to 
+
+
+{    6,    3}:  On entry to PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+
+
+PZSTEIN parameter number    4 had an illegal value 
+
+PZSTEIN parameter number    4 had an illegal value 
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+{   10,    2}:  On entry to 
+PZSTEIN parameter number    4 had an illegal value 
+PZSTEIN parameter number    4 had an illegal value 
+{    9,    2}:  On entry to {    3,    2}:  On entry to {    2,    3}:  On entry to {    7,    2}:  On entry to {    2,    2}:  On entry to {    9,    3}:  On entry to {    6,    2}:  On entry to {    8,    2}:  On entry to 
+{    1,    3}:  On entry to {    3,    3}:  On entry to {    7,    3}:  On entry to {    8,    3}:  On entry to 
+
+
+
+PZUNMTR parameter number    5 had an illegal value {    5,    3}:  On entry to {    1,    2}:  On entry to 
+
+
+PZUNMTR parameter number    5 had an illegal value PZUNMTR parameter number    5 had an illegal value 
+
+PZUNMTR parameter number    5 had an illegal value 
+{    4,    2}:  On entry to {    0,    2}:  On entry to 
+
+PZUNMTR parameter {    2,    1}:  On entry to {    3,    0}:  On entry to {    8,    1}:  On entry to {    9,    1}:  On entry to {    7,    1}:  On entry to {    8,    0}:  On entry to {    7,    0}:  On entry to {    4,    0}:  On entry to {    1,    0}:  On entry to {    0,    1}:  On entry to {    4,    1}:  On entry to 
+{    5,    1}:  On entry to 
+{    1,    1}:  On entry to PZUNMTR parameter number    5 had an illegal value 
+
+
+PZUNMTR parameter number    5 had an illegal value 
+
+
+PZUNMTR parameter number    5 had an illegal value {    3,    1}:  On entry to PZUNMTR parameter number    5 had an illegal value PZUNMTR parameter number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value {    5,    0}:  On entry to 
+
+
+
+{   11,    1}:  On entry to 
+PZUNMTR parameter number    5 had an illegal value 
+
+
+PZUNMTR parameter number    5 had an illegal value  GSD%LWWORK         796        1740         582          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+          28
+{    0,    0}:  On entry to {    6,    0}:  On entry to 
+
+
+PZUNMTR parameter number    5 had an illegal value PZUNMTR parameter number    5 had an illegal value 
+{   10,    0}:  On entry to 
+{    9,    0}:  On entry to 
+
+PZUNMTR parameter number    5 had an illegal value 
+
+PZUNMTR parameter number    5 had an illegal value PZUNMTR parameter number    5 had an illegal value 
+
+
+{    2,    0}:  On entry to PZUNMTR parameter number    5 had an illegal value 
+
+
+PZUNMTR parameter number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value  GSD%LWWORK         796        1740         582          28
+
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+          28
+          28
+          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+{    6,    1}:  On entry to  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+{   10,    1}:  On entry to           28
+PZUNMTR parameter number    5 had an illegal value 
+
+PZUNMTR parameter number    5 had an illegal value 
+
+
+PZUNMTR parameter number    5 had an illegal value 
+{   11,    0}:  On entry to PZUNMTR parameter number    5 had an illegal value 
+
+PZUNMTR parameter number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value 
+ GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+PZUNMTR parameter number    5 had an illegal value  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+          28
+          28
+ GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+          28
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+PZUNMTR parameter number    5 had an illegal value 
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value 
+{    0,    3}:  On entry to  GSD%LWWORK         796        1740         582          28
+
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+PZUNMTR parameter number    5 had an illegal value  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+          28
+
+ GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+          28
+ GSD%LWWORK         796        1740         582          28
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+{   10,    3}:  On entry to           28
+          28
+
+ GSD%LWWORK         796        1740         582          28
+{    5,    2}:  On entry to PZUNMTR parameter number    5 had an illegal value 
+
+PZUNMTR parameter number    5 had an illegal value  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+          28
+
+PZUNMTR parameter number    5 had an illegal value 
+
+
+PZUNMTR parameter number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value 
+
+ GSD%LWWORK         796        1740         582          28
+PZUNMTR parameter number    5 had an illegal value  GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+{   10,    2}:  On entry to           28
+
+PZUNMTR parameter number    5 had an illegal value  GSD%LWWORK         796        1740         582          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+{    4,    3}:  On entry to {    6,    3}:  On entry to 
+{   11,    3}:  On entry to 
+PZUNMTR parameter number    5 had an illegal value 
+
+PZUNMTR parameter number    5 had an illegal value  GSD%LWWORK         796        1740         582          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+{   11,    2}:  On entry to 
+PZUNMTR parameter number    5 had an illegal value 
+
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+PZUNMTR parameter number    5 had an illegal value 
+ GSD%LWWORK         796        1740         582          28
+PZUNMTR parameter number    5 had an illegal value  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+PZUNMTR parameter number    5 had an illegal value 
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+PZUNMTR parameter number    5 had an illegal value 
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+
+
+PZUNMTR parameter number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value PZUNMTR parameter number    5 had an illegal value 
+
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+
+{    8,    5}:  On entry to {    9,    5}:  On entry to {    3,    5}:  On entry to 
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value {    6,    5}:  On entry to PZSTEIN parameter number    4 had an illegal value {   11,    5}:  On entry to {    8,    4}:  On entry to 
+
+
+
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+
+PZSTEIN parameter number    4 had an illegal value 
+
+{    4,    5}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+
+PZSTEIN parameter number    4 had an illegal value 
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+{    1,    5}:  On entry to {    0,    5}:  On entry to 
+{    5,    5}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+
+{   10,    4}:  On entry to {    0,    4}:  On entry to 
+{    7,    4}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+
+PZSTEIN parameter number    4 had an illegal value 
+PZSTEIN parameter number    4 had an illegal value 
+{    1,    4}:  On entry to {    2,    4}:  On entry to 
+
+
+PZSTEIN parameter number    4 had an illegal value 
+PZSTEIN parameter number    4 had an illegal value 
+
+
+PZSTEIN parameter number    4 had an illegal value 
+
+
+PZSTEIN parameter number    4 had an illegal value 
+PZSTEIN parameter number    4 had an illegal value 
+
+PZSTEIN parameter number    4 had an illegal value 
+
+{    3,    6}:  On entry to {    9,    6}:  On entry to 
+
+{    7,    6}:  On entry to {   11,    6}:  On entry to PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+
+
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+
+{    4,    6}:  On entry to PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+
+{    0,    6}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+{    3,    7}:  On entry to 
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value {    5,    6}:  On entry to 
+
+{    0,    7}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+{    9,    7}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+
+
+
+
+PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value PZSTEIN parameter number    4 had an illegal value 
+
+
+{    5,    7}:  On entry to 
+PZSTEIN parameter number    4 had an illegal value 
+{    8,    7}:  On entry to 
+{    1,    7}:  On entry to PZSTEIN parameter number    4 had an illegal value 
+{    2,    7}:  On entry to 
+PZSTEIN parameter number    4 had an illegal value 
+
+PZSTEIN parameter number    4 had an illegal value 
+{   10,    7}:  On entry to 
+PZSTEIN parameter number    4 had an illegal value 
+{    7,    7}:  On entry to 
+PZSTEIN parameter number    4 had an illegal value 
+{    6,    7}:  On entry to 
+PZSTEIN parameter number    4 had an illegal value 
+{    3,    4}:  On entry to {    9,    4}:  On entry to {    8,    4}:  On entry to {    8,    5}:  On entry to {    7,    4}:  On entry to {    6,    5}:  On entry to {    2,    4}:  On entry to {    0,    5}:  On entry to {    4,    4}:  On entry to {   11,    4}:  On entry to 
+
+{    5,    5}:  On entry to 
+
+PZUNMTR parameter number    5 had an illegal value PZUNMTR parameter number    5 had an illegal value 
+
+
+PZUNMTR parameter number    5 had an illegal value {    1,    5}:  On entry to 
+PZUNMTR parameter number    5 had an illegal value 
+
+PZUNMTR parameter number    5 had an illegal value {    2,    5}:  On entry to 
+
+PZUNMTR parameter number    5 had an illegal value 
+{   11,    5}:  On entry to 
+PZUNMTR parameter number    5 had an illegal value 
+
+PZUNMTR parameter number    5 had an illegal value {    3,    5}:  On entry to 
+ GSD%LWWORK         796        1740         582          28
+
+ GSD%LWWORK         796        1740         582          28
+{    5,    4}:  On entry to PZUNMTR parameter number    5 had an illegal value  GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+          28
+ GSD%LWWORK         796        1740         582          28
+{    1,    4}:  On entry to  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+          28
+PZUNMTR parameter number    5 had an illegal value 
+{   10,    5}:  On entry to 
+PZUNMTR parameter number    5 had an illegal value 
+{    0,    4}:  On entry to 
+{    6,    4}:  On entry to PZUNMTR parameter number    5 had an illegal value 
+
+
+PZUNMTR parameter number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value  GSD%LWWORK         796        1740         582          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+{    4,    5}:  On entry to  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+          28
+PZUNMTR parameter number    5 had an illegal value 
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+{    7,    5}:  On entry to  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+
+          28
+ GSD%LWWORK         796        1740         582          28
+PZUNMTR parameter number    5 had{    2,    7}:  On entry to {   11,    6}:  On entry to {    8,    6}:  On entry to {    0,    7}:  On entry to {    7,    6}:  On entry to {    5,    7}:  On entry to {    6,    6}:  On entry to {    8,    7}:  On entry to {    1,    6}:  On entry to 
+
+
+
+PZUNMTR parameter number    5 had an illegal value PZUNMTR parameter number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value 
+
+{    3,    6}:  On entry to {    9,    6}:  On entry to 
+{    4,    6}:  On entry to 
+PZUNMTR parameter number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value 
+
+{    4,    7}:  On entry to {   11,    7}:  On entry to 
+
+PZUNMTR parameter number    5 had an illegal value  GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+PZUNMTR parameter number    5 had an illegal value  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+
+ GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+{    1,    7}:  On entry to  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+          28
+          28
+PZUNMTR parameter number    5 had an illegal value  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+{   10,    7}:  On entry to 
+{    5,    6}:  On entry to PZUNMTR parameter number    5 had an illegal value 
+
+PZUNMTR parameter number    5 had an illegal value 
+
+
+PZUNMTR parameter number    5 had an illegal value 
+PZUNMTR parameter number    5 had an illegal value 
+{    7,    7}:  On entry to 
+
+PZUNMTR par an illegal value  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+          28
+
+PZUNMTR parameter number    5 had an illegal value  GSD%LWWORK         796        1740         582          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+
+PZUNMTR parameter number    5 had an illegal value 
+{    9,    5}:  On entry to  GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+PZUNMTR parameter number    5 had an illegal value           28
+
+ GSD%LWWORK         796        1740         582          28
+PZUNMTR parameter number    5 had an illegal value  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+          28
+
+{   10,    4}:  On entry to PZUNMTR parameter number    5 had an illegal value 
+
+PZUNMTR parameter number    5 had an illegal value 
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+PZUNMTR parameter number    5 had an illegal value           28
+ GSD%LWWORK         796        1740         582          28
+
+          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+          28
+ GSD%LWWORK         796        1740         582          28
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+PZUNMTR parameter number    5 had an illegal value 
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ameter number    5 had an illegal value PZUNMTR parameter number    5 had an illegal value  GSD%LWWORK         796        1740         582          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+          28
+ GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+          28
+          28
+
+{   10,    6}:  On entry to PZUNMTR parameter number    5 had an illegal value 
+ GSD%LWWORK         796        1740         582          28
+ GSD%LWWORK         796        1740         582          28
+PZUNMTR parameter number    5 had an illegal value  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+{    2,    6}:  On entry to           28
+
+PZUNMTR parameter number    5 had an illegal value 
+{    6,    7}:  On entry to  GSD%LWWORK         796        1740         582          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+PZUNMTR parameter number    5 had an illegal value           28
+ GSD%LWWORK         796        1740         582          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+{    9,    7}:  On entry to 
+PZUNMTR parameter number    5 had an illegal value 
+
+PZUNMTR parameter number    5 had an illegal value 
+ GSD%LWWORK         796        1740         582          28
+{    3,    7}:  On entry to  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+
+          28
+PZUNMTR parameter number    5 had an illegal value 
+{    0,    6}:  On entry to  GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+
+ GSD%LWWORK         796        1740         582          28
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+PZUNMTR parameter number    5 had an illegal value  ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+ GSD%LWWORK         796        1740         582          28
+          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+ GSD%LWWORK         796        1740         582          28
+ ERROR in subspace rotation PSSYEVX: not enough eigenvalues found         405
+          28
+Application 23238290 resources: utime ~80870s, stime ~322s, Rss ~156780, inblocks ~596159, outblocks ~894316

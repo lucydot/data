@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+JOBS=/work/pr1u1304/pr1u1304/pr1uycu1/jobs/111
+STRUCTURES=/work/pr1u1304/pr1u1304/pr1uycu1/jobs/EPPBE/Structures/*
+FILES=/work/pr1u1304/pr1u1304/pr1uycu1/jobs/EPPBE
+NUMBER=1
+		
+for s in $STRUCTURES
+do
+    JOBNUMBER=$(printf "%03d" $NUMBER)    
+    echo $JOBNUMBER
+    echo "Processing $s Structure..."
+    mkdir $JOBS/$JOBNUMBER
+    cp $s $JOBS/$JOBNUMBER/
+    cp $s $JOBS/$JOBNUMBER/POSCAR
+    cp $FILES/{POTCAR,INCAR,KPOINTS} $JOBS/$JOBNUMBER/
+    NUMBER=$((NUMBER+1))
+done

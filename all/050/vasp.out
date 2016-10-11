@@ -1,0 +1,166 @@
+ running on  384 total cores
+ distrk:  each k-point on   24 cores,   16 groups
+ distr:  one band on    6 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.1 24Jun15 (build Nov 25 2015 16:01:35) complex                        
+  
+ POSCAR found type information on POSCAR  C  N  H  Pb I 
+ POSCAR found :  5 types and      12 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default, NPAR=number of cores might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have selected ISYM=2 for HF type calculation. This will symmetrize |
+|      the charge density but not the exchange potential.                     |
+|      I suggest to use ISYM=3 instead. This uses symmetry to obtain          |
+|      the orbitals at all k-points in the Brillouine zone, but does not      |
+|      apply symmetry to the Hartree potential directly.                      |
+|      The resultant charge might have lower symmetry than the crystal,       |
+|      but at least, Hartree and exchange are fully compatible.               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your generating k-point grid is not commensurate to the symmetry       |
+|      of the lattice.  This can cause   slow convergence with respect        |
+|      to k-points for HF type calculations                                   |
+|      suggested SOLUTIONS:                                                   |
+|       ) if not already the case, use automatic k-point generation           |
+|       ) shift your grid to Gamma (G) (e.g. required for hex or fcc lattice) |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      The number of bands has been changed from the values supplied          |
+|      in the INCAR file. This is a result of running the parallel version.   |
+|      The orbitals not found in the WAVECAR file will be initialized with    |
+|      random numbers, which is usually adequate. For correlated              |
+|      calculations, however, you should redo the groundstate calculation.    |
+|      I found NBANDS    =       50  now  NBANDS  =      52                   |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort
+DAV:   1     0.204258576837E+04    0.20426E+04   -0.11881E+05 32656   0.235E+03
+DAV:   2     0.472925481696E+03   -0.15697E+04   -0.13178E+04 32656   0.679E+02
+DAV:   3     0.819866234537E+02   -0.39094E+03   -0.34938E+03 32656   0.218E+02
+DAV:   4     0.355436162002E+02   -0.46443E+02   -0.45476E+02 32656   0.772E+01
+DAV:   5     0.332530109190E+02   -0.22906E+01   -0.22834E+01 32656   0.185E+01
+ gam= 0.000 g(H,U,f)=  0.503E+01 0.195E+01 0.354E-23 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   6    -0.578499933797E+02   -0.91103E+02   -0.22834E+01 32656   0.698E+01 0.000E+00
+ gam= 0.000 trial= 0.400  step= 0.345 mean= 0.400
+ gam= 0.353 g(H,U,f)=  0.179E+01 0.675E+00 0.465E-54 ort(H,U,f) =-0.101E+01 0.106E+01 0.672E-54
+CGA:   7    -0.590514548468E+02   -0.12015E+01   -0.12052E+01 32656   0.246E+01 0.509E-01
+ gam= 0.353 trial= 0.397  step= 0.459 mean= 0.397
+ gam= 0.182 g(H,U,f)=  0.314E+00 0.133E+00 0.851E-16 ort(H,U,f) =-0.324E+00 0.375E+00 0.204E-15
+CGA:   8    -0.596231013197E+02   -0.57165E+00   -0.56904E+00 32656   0.447E+00 0.511E-01
+ gam= 0.182 trial= 0.400  step= 0.854 mean= 0.400
+ gam= 0.286 g(H,U,f)=  0.105E+00 0.227E-01 0.416E-96 ort(H,U,f) =-0.596E-01 0.733E-01 0.131E-95
+CGA:   9    -0.598211431095E+02   -0.19804E+00   -0.19499E+00 32656   0.128E+00 0.137E-01
+ gam= 0.286 trial= 0.423  step= 0.607 mean= 0.423
+ gam= 0.427 g(H,U,f)=  0.492E-01 0.537E-02 0.234E-26 ort(H,U,f) =-0.180E-01 0.186E-01 0.940E-26
+CGA:  10    -0.598612152635E+02   -0.40072E-01   -0.39997E-01 32656   0.546E-01 0.612E-03
+ gam= 0.427 trial= 0.432  step= 0.430 mean= 0.432
+ gam= 0.240 g(H,U,f)=  0.109E-01 0.226E-02 0.335E-25 ort(H,U,f) =-0.718E-02 0.732E-02 0.159E-24
+CGA:  11    -0.598730153582E+02   -0.11800E-01   -0.11800E-01 32656   0.131E-01 0.139E-03
+ gam= 0.240 trial= 0.432  step= 0.631 mean= 0.432
+ gam= 0.219 g(H,U,f)=  0.223E-02 0.649E-03 0.412-258 ort(H,U,f) =-0.182E-02 0.178E-02 0.238-257
+CGA:  12    -0.598771654231E+02   -0.41501E-02   -0.41535E-02 32656   0.288E-02-0.388E-04
+ gam= 0.219 trial= 0.442  step= 0.739 mean= 0.442
+ gam= 0.314 g(H,U,f)=  0.749E-03 0.156E-03 0.278E-83 ort(H,U,f) =-0.480E-03 0.458E-03 0.236E-82
+CGA:  13    -0.598782236963E+02   -0.10583E-02   -0.10615E-02 32656   0.905E-03-0.219E-04
+ gam= 0.314 trial= 0.457  step= 0.598 mean= 0.457
+ gam= 0.439 g(H,U,f)=  0.345E-03 0.525E-04 0.430E-55 ort(H,U,f) =-0.157E-03 0.167E-03 0.526E-54
+CGA:  14    -0.598784928702E+02   -0.26917E-03   -0.26844E-03 32656   0.397E-03 0.102E-04
+ gam= 0.439 trial= 0.464  step= 0.486 mean= 0.464
+ gam= 0.268 g(H,U,f)=  0.915E-04 0.151E-04 0.115E-44 ort(H,U,f) =-0.704E-04 0.586E-04-0.157E-43
+CGA:  15    -0.598785904120E+02   -0.97542E-04   -0.97672E-04 32656   0.107E-03-0.119E-04
+ gam= 0.268 trial= 0.465  step= 0.640 mean= 0.465
+ gam= 0.233 g(H,U,f)=  0.215E-04 0.334E-05 0.380E-30 ort(H,U,f) =-0.123E-04 0.130E-04-0.736E-30
+CGA:  16    -0.598786235504E+02   -0.33138E-04   -0.33080E-04 32656   0.248E-04 0.668E-06
+ gam= 0.233 trial= 0.474  step= 0.684 mean= 0.474
+ gam= 0.266 g(H,U,f)=  0.577E-05 0.817E-06 0.105E-21 ort(H,U,f) =-0.361E-05 0.261E-05 0.711E-22
+CGA:  17    -0.598786319794E+02   -0.84289E-05   -0.85340E-05 32656   0.659E-05-0.100E-05
+ gam= 0.266 trial= 0.484  step= 0.646 mean= 0.484
+ gam= 0.202 g(H,U,f)=  0.112E-05 0.209E-06 0.118E-16 ort(H,U,f) =-0.415E-06 0.682E-06 0.217E-16
+CGA:  18    -0.598786340429E+02   -0.20636E-05   -0.20419E-05 32656   0.133E-05 0.266E-06
+ gam= 0.202 trial= 0.492  step= 0.599 mean= 0.492
+ gam= 0.233 g(H,U,f)=  0.237E-06 0.722E-07-0.166-251 ort(H,U,f) =-0.926E-08 0.194E-06-0.360-251
+CGA:  19    -0.598786344670E+02   -0.42406E-06   -0.41419E-06 32656   0.309E-06 0.185E-06
+ gam= 0.233 trial= 0.498  step= 0.566 mean= 0.498
+   1 F= -.59878634E+02 E0= -.59878634E+02  d E =-.386918-114
+ writing wavefunctions
+Application 21548498 resources: utime ~7008446s, stime ~11771s, Rss ~1163736, inblocks ~3786646, outblocks ~8030152

@@ -1,0 +1,67 @@
+Rank 179 [Thu Jul 14 14:55:24 2016] [c4-2c1s15n0] Fatal error in MPI_Allreduce: Message truncated, error stack:
+MPI_Allreduce(1007)..............: MPI_Allreduce(sbuf=0xd0ffbb0, rbuf=0x68412e0, count=2368, MPI_DOUBLE_PRECISION, MPI_SUM, comm=0x84000006) failed
+MPIR_Allreduce_impl(850).........: 
+MPIR_Allreduce_intra(570)........: 
+MPID_nem_gni_lmt_start_recv(1580): Message from rank 5 and tag 14 truncated; 16000 bytes received but buffer size is 4736
+MPIR_Allreduce_intra(635)........: 
+MPID_nem_gni_lmt_start_recv(1580): Message from rank 5 and tag 14 truncated; 16000 bytes received but buffer size is 4736
+Rank 107 [Thu Jul 14 14:55:25 2016] [c4-2c0s14n0] Fatal error in MPI_Allreduce: Message truncated, error stack:
+MPI_Allreduce(1007).................: MPI_Allreduce(sbuf=0xf3c3d90, rbuf=0x68412e0, count=2368, MPI_DOUBLE_PRECISION, MPI_SUM, comm=0x84000006) failed
+MPIR_Allreduce_impl(850)............: 
+MPIR_Allreduce_intra(570)...........: 
+MPID_nem_gni_lmt_start_recv(1580)...: Message from rank 5 and tag 14 truncated; 32000 bytes received but buffer size is 9472
+MPIR_Allreduce_intra(570)...........: 
+MPIDI_CH3U_Receive_data_found(144)..: Message from rank 0 and tag 14 truncated; 8000 bytes received but buffer size is 2368
+MPIR_Allreduce_intra(635)...........: 
+MPIC_Sendrecv(533)..................: 
+MPIDI_CH3U_Request_unpack_uebuf(618): Message truncated; 8000 bytes received but buffer size is 2368
+MPIR_Allreduce_intra(635)...........: 
+MPID_nem_gni_lmt_start_recv(1580)...: Message from rank 5 and tag 14 truncated; 32000 bytes received but buffer size is 9472
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           0000000005162261  Unknown               Unknown  Unknown
+vasp_std           00000000051854F5  Unknown               Unknown  Unknown
+vasp_std           0000000000407A0E  Unknown               Unknown  Unknown
+vasp_std           0000000000886F39  Unknown               Unknown  Unknown
+vasp_std           0000000000FA1575  Unknown               Unknown  Unknown
+vasp_std           000000000166777D  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           0000000005162261  Unknown               Unknown  Unknown
+vasp_std           00000000051854F5  Unknown               Unknown  Unknown
+vasp_std           0000000000407A0E  Unknown               Unknown  Unknown
+vasp_std           0000000000886F39  Unknown               Unknown  Unknown
+vasp_std           0000000000FA1575  Unknown               Unknown  Unknown
+vasp_std           000000000166777D  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+_pmiu_daemon(SIGCHLD): [NID 03896] [c4-2c0s14n0] [Thu Jul 14 14:55:25 2016] PE RANK 107 exit signal Aborted
+[NID 03896] 2016-07-14 14:55:25 Apid 22482045: initiated application termination

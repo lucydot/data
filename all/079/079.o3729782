@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+*** lucydot   Job: 3729782.sdb   started: 02/06/16 13:16:15   host: mom5 ***
+*** lucydot   Job: 3729782.sdb   started: 02/06/16 13:16:15   host: mom5 ***
+*** lucydot   Job: 3729782.sdb   started: 02/06/16 13:16:15   host: mom5 ***
+*** lucydot   Job: 3729782.sdb   started: 02/06/16 13:16:15   host: mom5 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=96,place=free,walltime=01:00:00
+Resources allocated: cpupercent=0,cput=00:00:04,mem=9804kb,ncpus=96,vmem=134880kb,walltime=00:00:33
+
+*** lucydot   Job: 3729782.sdb   ended: 02/06/16 13:16:47   queue: standard ***
+*** lucydot   Job: 3729782.sdb   ended: 02/06/16 13:16:47   queue: standard ***
+*** lucydot   Job: 3729782.sdb   ended: 02/06/16 13:16:47   queue: standard ***
+*** lucydot   Job: 3729782.sdb   ended: 02/06/16 13:16:47   queue: standard ***
+--------------------------------------------------------------------------------

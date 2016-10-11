@@ -1,0 +1,13 @@
+forrtl: Disk quota exceeded
+forrtl: severe (38): error during write, unit 20, file /fs2/e476/e476/lucydot/jobs/054/vasprun.xml
+Image              PC                Routine            Line        Source             
+vasp_std           00000000052FD704  Unknown               Unknown  Unknown
+vasp_std           0000000005344E87  Unknown               Unknown  Unknown
+vasp_std           0000000005342865  Unknown               Unknown  Unknown
+vasp_std           000000000041245D  Unknown               Unknown  Unknown
+vasp_std           0000000000FF8472  Unknown               Unknown  Unknown
+vasp_std           000000000166740B  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+[NID 03694] 2016-05-09 21:21:27 Apid 21548632: initiated application termination

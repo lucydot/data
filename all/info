@@ -1,0 +1,6 @@
+qsub submit.pbs
+qstat -u lucydot
+qstat -Tu lucydot
+
+module add epcc-tools
+checkScript submit.pbs

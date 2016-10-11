@@ -1,0 +1,73 @@
+Rank 21 [Tue Sep 27 09:57:43 2016] [c7-0c2s11n2] Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(329).................: MPI_Finalize failed
+MPI_Finalize(253).................: 
+MPID_Finalize(125)................: 
+MPIDI_PG_Close_VCs(1331)..........: 
+MPIDI_CH3U_VC_WaitForClose(404)...: an error occurred while the device was waiting for all open connections to close
+MPIDI_CH3I_Progress(375)..........: 
+MPID_nem_mpich_blocking_recv(1034): 
+MPID_nem_gni_poll(1521)...........: 
+MPID_nem_gni_check_recvCQ(1410)...: 
+MPID_nem_gni_process_recv(1282)...: GNI_SmsgGetNextWTag (GNI_RC_INVALID_PARAM)
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_ncl           00000000053A6BB1  Unknown               Unknown  Unknown
+vasp_ncl           00000000053A5307  Unknown               Unknown  Unknown
+vasp_ncl           0000000005354354  Unknown               Unknown  Unknown
+vasp_ncl           0000000005354166  Unknown               Unknown  Unknown
+vasp_ncl           0000000005301A3F  Unknown               Unknown  Unknown
+vasp_ncl           0000000005308341  Unknown               Unknown  Unknown
+vasp_ncl           000000000515FB50  Unknown               Unknown  Unknown
+vasp_ncl           00000000052EB28B  Unknown               Unknown  Unknown
+vasp_ncl           00000000053C32D1  Unknown               Unknown  Unknown
+vasp_ncl           00000000051AA4F2  Unknown               Unknown  Unknown
+vasp_ncl           0000000005198719  Unknown               Unknown  Unknown
+vasp_ncl           000000000519889D  Unknown               Unknown  Unknown
+vasp_ncl           00000000051820AD  Unknown               Unknown  Unknown
+vasp_ncl           0000000005189171  Unknown               Unknown  Unknown
+vasp_ncl           00000000004084E1  Unknown               Unknown  Unknown
+vasp_ncl           0000000000430616  Unknown               Unknown  Unknown
+vasp_ncl           0000000000FF0C47  Unknown               Unknown  Unknown
+vasp_ncl           0000000000FCAA21  Unknown               Unknown  Unknown
+vasp_ncl           0000000000FFDB30  Unknown               Unknown  Unknown
+vasp_ncl           000000000166AD0A  Unknown               Unknown  Unknown
+vasp_ncl           000000000040130E  Unknown               Unknown  Unknown
+vasp_ncl           00000000053BCFC1  Unknown               Unknown  Unknown
+vasp_ncl           00000000004011F5  Unknown               Unknown  Unknown
+Rank 42 [Tue Sep 27 09:57:43 2016] [c1-1c1s5n1] Fatal error in MPI_Finalize: Other MPI error, error stack:
+MPI_Finalize(329)...................: MPI_Finalize failed
+MPI_Finalize(253)...................: 
+MPID_Finalize(125)..................: 
+MPIDI_PG_Close_VCs(1307)............: 
+MPIDI_VC_SendClose(274).............: an error occurred when the device attempted to acknowledge the closing of a connection
+MPID_nem_gni_iStartContigMsg(1426)..: 
+MPID_nem_gni_iSendContig_start(1128): 
+MPID_nem_gni_iSendContig_sp(565)....: 
+MPID_nem_gni_ctrl_send_smsg(884)....: GNI_SmsgSendWTag (GNI_RC_INVALID_PARAM)
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_ncl           00000000053A6BB1  Unknown               Unknown  Unknown
+vasp_ncl           00000000053A5307  Unknown               Unknown  Unknown
+vasp_ncl           0000000005354354  Unknown               Unknown  Unknown
+vasp_ncl           0000000005354166  Unknown               Unknown  Unknown
+vasp_ncl           0000000005301A3F  Unknown               Unknown  Unknown
+vasp_ncl           0000000005308341  Unknown               Unknown  Unknown
+vasp_ncl           000000000515FB50  Unknown               Unknown  Unknown
+vasp_ncl           00000000052EB28B  Unknown               Unknown  Unknown
+vasp_ncl           00000000053C32D1  Unknown               Unknown  Unknown
+vasp_ncl           00000000051AA4F2  Unknown               Unknown  Unknown
+vasp_ncl           0000000005198719  Unknown               Unknown  Unknown
+vasp_ncl           000000000519889D  Unknown               Unknown  Unknown
+vasp_ncl           00000000051820AD  Unknown               Unknown  Unknown
+vasp_ncl           0000000005189171  Unknown               Unknown  Unknown
+vasp_ncl           00000000004084E1  Unknown               Unknown  Unknown
+vasp_ncl           0000000000430616  Unknown               Unknown  Unknown
+vasp_ncl           0000000000FF0C47  Unknown               Unknown  Unknown
+vasp_ncl           0000000000FCAA21  Unknown               Unknown  Unknown
+vasp_ncl           0000000000FFDB30  Unknown               Unknown  Unknown
+vasp_ncl           000000000166AD0A  Unknown               Unknown  Unknown
+vasp_ncl           000000000040130E  Unknown               Unknown  Unknown
+vasp_ncl           00000000053BCFC1  Unknown               Unknown  Unknown
+vasp_ncl           00000000004011F5  Unknown               Unknown  Unknown
+_pmiu_daemon(SIGCHLD): [NID 01813] [c1-1c1s5n1] [Tue Sep 27 09:57:44 2016] PE RANK 42 exit signal Aborted
+[NID 01813] 2016-09-27 09:57:44 Apid 23541549: initiated application termination

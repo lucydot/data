@@ -1,0 +1,83 @@
+ running on   16 total cores
+ distrk:  each k-point on   16 cores,    1 groups
+ distr:  one band on    1 cores,   16 groups
+ using from now: INCAR     
+ vasp.5.3.5 31Mar14 (build Apr 15 2015 10:45:18) complex                        
+  
+ POSCAR found type information on POSCAR  C  N  H  Pb I 
+ POSCAR found :  5 types and      12 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default, NPAR=number of cores might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have selected ISYM=2 for HF type calculation. This will symmetrize |
+|      the charge density but not the exchange potential.                     |
+|      I suggest to use ISYM=3 instead. This uses symmetry to obtain          |
+|      the orbitals at all k-points in the Brillouine zone, but does not      |
+|      apply symmetry to the Hartree potential directly.                      |
+|      The resultant charge might have lower symmetry than the crystal,       |
+|      but at least, Hartree and exchange are fully compatible.               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort
+DAV:   1     0.239352760659E+04    0.23935E+04   -0.11894E+05  3584   0.390E+03
+DAV:   2     0.430434606357E+03   -0.19631E+04   -0.19471E+04  3584   0.109E+03
+DAV:   3     0.638323066237E+02   -0.36660E+03   -0.36272E+03  3584   0.267E+02
+DAV:   4     0.339973584211E+02   -0.29835E+02   -0.29420E+02  3584   0.753E+01
+DAV:   5     0.331737668099E+02   -0.82359E+00   -0.82341E+00  3584   0.147E+01
+ gam= 0.000 g(H,U,f)=  0.865E+01 0.694E+00 0.169E-37 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   6    -0.579249666216E+02   -0.91099E+02   -0.82341E+00  3584   0.934E+01 0.000E+00
+ gam= 0.000 trial= 0.400  step= 0.274 mean= 0.400
+ gam= 0.256 g(H,U,f)=  0.212E+01 0.273E+00 0.744E-52 ort(H,U,f) =-0.386E+00 0.402E+00 0.107E-51
+CGA:   7    -0.591934708938E+02   -0.12685E+01   -0.12788E+01  3584   0.239E+01 0.164E-01
+ gam= 0.256 trial= 0.394  step= 0.403 mean= 0.394
+ gam= 0.175 g(H,U,f)=  0.353E+00 0.663E-01 0.990E-73 ort(H,U,f) =-0.136E+00 0.160E+00 0.196E-72
+CGA:   8    -0.596763457895E+02   -0.48287E+00   -0.48270E+00  3584   0.419E+00 0.236E-01
+ gam= 0.175 trial= 0.394  step= 0.659 mean= 0.394
+ gam= 0.306 g(H,U,f)=  0.105E+00 0.232E-01 0.557E-43 ort(H,U,f) =-0.443E-01 0.514E-01 0.120E-42
+CGA:   9    -0.598168019196E+02   -0.14046E+00   -0.13941E+00  3584   0.128E+00 0.712E-02
+ gam= 0.306 trial= 0.407  step= 0.642 mean= 0.407
+ gam= 0.450 g(H,U,f)=  0.506E-01 0.694E-02-0.165-259 ort(H,U,f) =-0.178E-01 0.194E-01-0.485-259
+CGA:  10    -0.598588289443E+02   -0.42027E-01   -0.41807E-01  3584   0.575E-01 0.162E-02
+ gam= 0.450 trial= 0.419  step= 0.407 mean= 0.419
+ gam= 0.340 g(H,U,f)=  0.170E-01 0.256E-02-0.320-252 ort(H,U,f) =-0.847E-02 0.877E-02-0.112-251
+CGA:  11    -0.598706731864E+02   -0.11844E-01   -0.11847E-01  3584   0.196E-01 0.302E-03
+ gam= 0.340 trial= 0.419  step= 0.603 mean= 0.419
+ gam= 0.247 g(H,U,f)=  0.437E-02 0.468E-03 0.532E-61 ort(H,U,f) =-0.215E-02 0.218E-02 0.282E-60
+CGA:  12    -0.598766023583E+02   -0.59292E-02   -0.59237E-02  3584   0.483E-02 0.297E-04

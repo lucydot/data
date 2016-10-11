@@ -1,0 +1,10 @@
+ running on   96 total cores
+ distrk:  each k-point on   96 cores,    1 groups
+ distr:  one band on   24 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.1 24Jun15 (build Nov 25 2015 16:39:35) complex                        
+  
+ POSCAR found :  2 types and       2 ions
+ Error reading item 'IALGO' from file INCAR.
+ Error code was IERR=5 ... . Found N=    0 data.
+Application 23241807 resources: utime ~19s, stime ~9s, Rss ~9560, inblocks ~434257, outblocks ~773659

@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+*** lucy   Job: 3961445.sdb   started: 27/09/16 10:28:18   host: mom2 ***
+*** lucy   Job: 3961445.sdb   started: 27/09/16 10:28:18   host: mom2 ***
+*** lucy   Job: 3961445.sdb   started: 27/09/16 10:28:18   host: mom2 ***
+*** lucy   Job: 3961445.sdb   started: 27/09/16 10:28:18   host: mom2 ***
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=48,place=free,walltime=01:00:00
+Resources allocated: cpupercent=0,cput=00:00:02,mem=8712kb,ncpus=48,vmem=150848kb,walltime=01:00:24
+
+*** lucy   Job: 3961445.sdb   ended: 27/09/16 11:28:51   queue: standard ***
+*** lucy   Job: 3961445.sdb   ended: 27/09/16 11:28:51   queue: standard ***
+*** lucy   Job: 3961445.sdb   ended: 27/09/16 11:28:51   queue: standard ***
+*** lucy   Job: 3961445.sdb   ended: 27/09/16 11:28:51   queue: standard ***
+--------------------------------------------------------------------------------

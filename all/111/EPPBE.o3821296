@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+*** pr1uycu1   Job: 3821296.sdb   started: 14/07/16 14:26:07   host: mom3 ***
+*** pr1uycu1   Job: 3821296.sdb   started: 14/07/16 14:26:07   host: mom3 ***
+*** pr1uycu1   Job: 3821296.sdb   started: 14/07/16 14:26:07   host: mom3 ***
+*** pr1uycu1   Job: 3821296.sdb   started: 14/07/16 14:26:07   host: mom3 ***
+
+--------------------------------------------------------------------------------
+Submitting job /work/pr1u1304/pr1u1304/pr1uycu1/jobs/111/008 dotty....
+--------------------------------------------------------------------------------
+
+Resources requested: ncpus=768,place=free,walltime=03:00:00
+Resources allocated: cpupercent=0,cput=00:00:03,mem=8712kb,ncpus=768,vmem=86336kb,walltime=00:29:22
+
+*** pr1uycu1   Job: 3821296.sdb   ended: 14/07/16 14:55:29   queue: standard ***
+*** pr1uycu1   Job: 3821296.sdb   ended: 14/07/16 14:55:29   queue: standard ***
+*** pr1uycu1   Job: 3821296.sdb   ended: 14/07/16 14:55:29   queue: standard ***
+*** pr1uycu1   Job: 3821296.sdb   ended: 14/07/16 14:55:29   queue: standard ***
+--------------------------------------------------------------------------------

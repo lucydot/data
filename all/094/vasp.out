@@ -1,0 +1,67 @@
+ running on   24 total cores
+ distrk:  each k-point on   24 cores,    1 groups
+ distr:  one band on    3 cores,    8 groups
+ using from now: INCAR     
+ vasp.5.4.1 24Jun15 (build Nov 25 2015 16:01:35) complex                        
+  
+ POSCAR found type information on POSCAR  C  N  H  Pb I 
+ POSCAR found :  5 types and      96 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have a (more or less) 'large supercell' and for larger cells       |
+|      it might be more efficient to use real space projection opertators     |
+|      So try LREAL= Auto  in the INCAR   file.                               |
+|      Mind: At the moment your POTCAR file does not contain real space       |
+|       projectors, and has to be modified,  BUT if you                       |
+|      want to do an extremely  accurate calculation you might also keep the  |
+|      reciprocal projection scheme          (i.e. LREAL=.FALSE.)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You enforced a specific xc-type in the INCAR file,                     |
+|      a different type was found on the POTCAR file                          |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.359477468452E+04    0.35948E+04   -0.18942E+05  7176   0.170E+03
+DAV:   2     0.199275205404E+03   -0.33955E+04   -0.32027E+04  8000   0.354E+02
+DAV:   3    -0.397545824800E+03   -0.59682E+03   -0.58764E+03  9432   0.172E+02
+DAV:   4    -0.438193655677E+03   -0.40648E+02   -0.40471E+02  9640   0.492E+01
+DAV:   5    -0.439741178908E+03   -0.15475E+01   -0.15452E+01  9808   0.932E+00    0.294E+01
+DAV:   6    -0.419488068335E+03    0.20253E+02   -0.41008E+01  9688   0.103E+01    0.155E+01
+DAV:   7    -0.417035339810E+03    0.24527E+01   -0.14497E+01 10232   0.637E+00    0.774E+00
+DAV:   8    -0.416861832243E+03    0.17351E+00   -0.30707E+00  8600   0.321E+00    0.182E+00
+DAV:   9    -0.416789419420E+03    0.72413E-01   -0.74126E-01  9336   0.174E+00    0.729E-01
+DAV:  10    -0.416801993222E+03   -0.12574E-01   -0.11739E-01  9024   0.605E-01    0.482E-01
+DAV:  11    -0.416801284351E+03    0.70887E-03   -0.14255E-02  9640   0.278E-01    0.214E-01
+DAV:  12    -0.416802680052E+03   -0.13957E-02   -0.10511E-02  9904   0.164E-01    0.111E-01
+DAV:  13    -0.416802832717E+03   -0.15266E-03   -0.14408E-03  8336   0.814E-02    0.785E-02
+DAV:  14    -0.416802883426E+03   -0.50709E-04   -0.28671E-04  8624   0.298E-02    0.384E-02
+DAV:  15    -0.416802927992E+03   -0.44566E-04   -0.22188E-04  8176   0.246E-02    0.147E-02
+DAV:  16    -0.416802932582E+03   -0.45896E-05   -0.24205E-05 10056   0.106E-02    0.152E-02
+DAV:  17    -0.416802932288E+03    0.29393E-06   -0.32966E-06  8112   0.341E-03    0.847E-03
+DAV:  18    -0.416802931840E+03    0.44811E-06   -0.13965E-05  9064   0.591E-03    0.358E-03
+DAV:  19    -0.416802931967E+03   -0.12703E-06   -0.14975E-06  8136   0.283E-03    0.310E-03
+DAV:  20    -0.416802931969E+03   -0.20809E-08   -0.39624E-07  8288   0.111E-03    0.767E-04
+DAV:  21    -0.416802932029E+03   -0.60500E-07   -0.87440E-08  7584   0.561E-04    0.351E-04
+DAV:  22    -0.416802932014E+03    0.15079E-07   -0.64307E-09  4928   0.268E-04    0.258E-04
+DAV:  23    -0.416802932017E+03   -0.27503E-08   -0.10709E-09  4632   0.215E-04
+   1 F= -.41680293E+03 E0= -.41680293E+03  d E =0.000000E+00
+Application 22054634 resources: utime ~178327s, stime ~170s, Rss ~640548, inblocks ~184890, outblocks ~194557

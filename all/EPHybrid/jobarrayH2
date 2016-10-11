@@ -1,0 +1,44 @@
+#!/bin/bash --login
+
+#PBS -N EPHybrid14022
+#PBS -l walltime=10:00:00
+#PBS -A e05-gener-wal
+#PBS -l select=504
+
+FOLDERS=$(seq 014 022)
+NFOLDERS=${#FOLDERS[@]}
+JOBS=/work/e05/e05/lucy/jobs/107
+MPI=1344
+
+# Note: select = No. Nodes (24 CPUS per node) # Also from the architecture the sweet spots should be:
+# 4 nodes (96 cores), which is one blade
+# and multiples of four up to
+# 64 nodes (1536 cores), which is one chassis.
+
+# Hey lucy, if you need to c .. make sure you c - instead
+
+# Make sure any symbolic links are resolved to absolute path
+export PBS_O_WORKDIR=$(readlink -f $PBS_O_WORKDIR)
+
+# Change to the directory that the job was submitted from.
+cd $PBS_O_WORKDIR
+
+# Set the number of threads to 1
+# This prevents any system libraries from automatically 
+# using threading.
+export OMP_NUM_THREADS=1
+
+# VASP makes big files
+ulimit -s unlimited
+
+for f in $FOLDERS
+do
+    zerof=$(printf "%03d" $f) 
+    cd $JOBS/$zerof
+    echo "Submitting job $JOBS/$zerof dotty...."
+    aprun -n $MPI /home/e05/e05/lucy/bin/vasp_std > EPHybrid.out &
+done
+
+wait
+
+

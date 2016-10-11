@@ -1,0 +1,2 @@
+aprun: Apid 21548566: Write failure to stdout of 96 bytes, ret -1: Disk quota exceeded
+aprun: Apid 21548566: Exiting due to errors. Application aborted

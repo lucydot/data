@@ -1,0 +1,24 @@
+ADDGRID = .TRUE.
+EDIFF = 1.0e-08
+ENCUT = 700
+ISIF = 2
+ISMEAR = 0
+LCHARG = .FALSE.
+LREAL = .FALSE.
+LWAVE = .FALSE.
+NSW = 0
+PREC = Accurate
+SIGMA = 0.001
+NPAR = 64
+KPAR = 1
+SYSTEM = MAPbI3-Cubic
+ICORELEVEL = 1
+
+!Hybrid-DFT Calculations:
+GGA = PE (PBE)
+LHFCALC  = .TRUE. (Activate HF)
+PRECFOCK = Fast   (HF FFT grid)
+ALGO     = All    (SCF Combo; ALGO=58)
+HFSCREEN = 0.207  (Screened exchange; e.g. HSE06)
+AEXX     = 0.25   (25% HF exchange; e.g. PBE0)
+

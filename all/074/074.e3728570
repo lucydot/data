@@ -1,0 +1,869 @@
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+Rank 40 [Wed Jun  1 18:05:14 2016] [c5-2c2s10n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 29 [Wed Jun  1 18:05:14 2016] [c5-2c2s10n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 41 [Wed Jun  1 18:05:14 2016] [c5-2c2s10n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+Rank 28 [Wed Jun  1 18:05:14 2016] [c5-2c2s10n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+Rank 11 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n1] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 22 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n1] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 23 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n1] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 10 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n1] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+Rank 17 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n1] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 16 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n1] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 46 [Wed Jun  1 18:05:14 2016] [c5-2c2s10n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 47 [Wed Jun  1 18:05:14 2016] [c5-2c2s10n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+Rank 34 [Wed Jun  1 18:05:14 2016] [c5-2c2s10n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 35 [Wed Jun  1 18:05:14 2016] [c5-2c2s10n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 5 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n1] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 4 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n1] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+Rank 64 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n3] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 70 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n3] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 65 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n3] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 59 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n3] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 58 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n3] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 52 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n3] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 71 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n3] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 53 [Wed Jun  1 18:05:14 2016] [c1-3c2s13n3] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+ M_divide: can not subdivide            6 nodes by           4
+ M_divide: can not subdivide            6 nodes by           4
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Un M_divide: can not subdivide            6 nodes by           4
+Rank 76 [Wed Jun  1 18:05:14 2016] [c1-3c2s14n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+known
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unkno M_divide: can not subdivide            6 nodes by           4
+Rank 95 [Wed Jun  1 18:05:14 2016] [c1-3c2s14n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 82 [Wed Jun  1 18:05:14 2016] [c1-3c2s14n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 77 [Wed Jun  1 18:05:14 2016] [c1-3c2s14n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+wn  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+Rank 88 [Wed Jun  1 18:05:14 2016] [c1-3c2s14n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 89 [Wed Jun  1 18:05:14 2016] [c1-3c2s14n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 94 [Wed Jun  1 18:05:14 2016] [c1-3c2s14n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+Rank 83 [Wed Jun  1 18:05:14 2016] [c1-3c2s14n0] Fatal error in MPI_Topo_test: Invalid communicator, error stack:
+MPI_Topo_test(125): MPI_Topo_test(MPI_COMM_NULL, topo_type=0x7ffffffef36c) failed
+MPI_Topo_test(76).: Null communicator
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown    forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+           Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std  forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+         00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+vasp_std           00000000053A3451  Unknown               Unknown  Unknown
+vasp_std           00000000053A1BA7  Unknown               Unknown  Unknown
+vasp_std           0000000005350A54  Unknown               Unknown  Unknown
+vasp_std           0000000005350866  Unknown               Unknown  Unknown
+vasp_std           00000000052FE13F  Unknown               Unknown  Unknown
+vasp_std           0000000005304A41  Unknown               Unknown  Unknown
+vasp_std           000000000515C250  Unknown               Unknown  Unknown
+vasp_std           00000000052E798B  Unknown               Unknown  Unknown
+vasp_std           00000000053BFB71  Unknown               Unknown  Unknown
+vasp_std           00000000051A6BF2  Unknown               Unknown  Unknown
+vasp_std           0000000005194E19  Unknown               Unknown  Unknown
+vasp_std           0000000005194F9D  Unknown               Unknown  Unknown
+vasp_std           00000000051856F8  Unknown               Unknown  Unknown
+vasp_std           00000000004014E6  Unknown               Unknown  Unknown
+vasp_std           000000000042BC76  Unknown               Unknown  Unknown
+vasp_std           000000000164259A  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+_pmiu_daemon(SIGCHLD): [NID 04983] [c1-3c2s13n3] [Wed Jun  1 18:05:14 2016] PE RANK 58 exit signal Aborted
+_pmiu_daemon(SIGCHLD): [NID 04200] [c5-2c2s10n0] [Wed Jun  1 18:05:14 2016] PE RANK 28 exit signal Aborted
+_pmiu_daemon(SIGCHLD): [NID 04984] [c1-3c2s14n0] [Wed Jun  1 18:05:14 2016] PE RANK 88 exit signal Aborted
+_pmiu_daemon(SIGCHLD): [NID 04981] [c1-3c2s13n1] [Wed Jun  1 18:05:14 2016] PE RANK 4 exit signal Aborted
+[NID 04983] 2016-06-01 18:05:14 Apid 21890100: initiated application termination

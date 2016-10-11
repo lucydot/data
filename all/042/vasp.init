@@ -1,0 +1,64 @@
+ running on   64 total cores
+ distrk:  each k-point on   16 cores,    4 groups
+ distr:  one band on    4 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.3.5 31Mar14 (build Apr 15 2015 10:45:18) complex                        
+  
+ POSCAR found type information on POSCAR  Cu Zn Sn S 
+ POSCAR found :  4 types and       8 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You enforced a specific xc-type in the INCAR file,                     |
+|      a different type was found on the POTCAR file                          |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ WAVECAR not read
+ charge-density read from file: Name                                    
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.962457920353E+03    0.96246E+03   -0.44490E+04100556   0.198E+03
+DAV:   2     0.100520724956E+03   -0.86194E+03   -0.83622E+03 84872   0.595E+02
+DAV:   3    -0.273855929519E+02   -0.12791E+03   -0.12441E+03 93524   0.207E+02
+DAV:   4    -0.355334437548E+02   -0.81479E+01   -0.80601E+01100216   0.506E+01
+DAV:   5    -0.357673234550E+02   -0.23388E+00   -0.23339E+00104732   0.949E+00
+DAV:   6    -0.357763909510E+02   -0.90675E-02   -0.90640E-02108424   0.168E+00
+DAV:   7    -0.357768356187E+02   -0.44467E-03   -0.44463E-03117708   0.335E-01
+DAV:   8    -0.357768498620E+02   -0.14243E-04   -0.14243E-04108240   0.500E-02
+DAV:   9    -0.357768505271E+02   -0.66508E-06   -0.66518E-06 76164   0.915E-03
+   1 F= -.35776851E+02 E0= -.35776851E+02  d E =-.357769E+02
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.402E-01 g(S)=  0.888E-01 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.129E+00
+ writing wavefunctions

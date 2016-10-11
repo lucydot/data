@@ -1,0 +1,28 @@
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+vasp_ncl           00000000053A6BB1  Unknown               Unknown  Unknown
+vasp_ncl           00000000053A5307  Unknown               Unknown  Unknown
+vasp_ncl           0000000005354354  Unknown               Unknown  Unknown
+vasp_ncl           0000000005354166  Unknown               Unknown  Unknown
+vasp_ncl           0000000005301A3F  Unknown               Unknown  Unknown
+vasp_ncl           0000000005307B1D  Unknown               Unknown  Unknown
+vasp_ncl           000000000515FB50  Unknown               Unknown  Unknown
+vasp_ncl           00000000052C11FF  Unknown               Unknown  Unknown
+vasp_ncl           00000000051CD3A9  Unknown               Unknown  Unknown
+vasp_ncl           00000000051CF4BE  Unknown               Unknown  Unknown
+vasp_ncl           00000000051B764D  Unknown               Unknown  Unknown
+vasp_ncl           0000000005244386  Unknown               Unknown  Unknown
+vasp_ncl           00000000051B1DA5  Unknown               Unknown  Unknown
+vasp_ncl           00000000051AA554  Unknown               Unknown  Unknown
+vasp_ncl           0000000005182047  Unknown               Unknown  Unknown
+vasp_ncl           0000000005189171  Unknown               Unknown  Unknown
+vasp_ncl           00000000004084E1  Unknown               Unknown  Unknown
+vasp_ncl           0000000000430616  Unknown               Unknown  Unknown
+vasp_ncl           0000000000FF0C47  Unknown               Unknown  Unknown
+vasp_ncl           0000000000FCAA21  Unknown               Unknown  Unknown
+vasp_ncl           0000000000FFDB30  Unknown               Unknown  Unknown
+vasp_ncl           000000000166AD0A  Unknown               Unknown  Unknown
+vasp_ncl           000000000040130E  Unknown               Unknown  Unknown
+vasp_ncl           00000000053BCFC1  Unknown               Unknown  Unknown
+vasp_ncl           00000000004011F5  Unknown               Unknown  Unknown
+[NID 02503] 2016-09-27 15:16:00 Apid 23545747: initiated application termination

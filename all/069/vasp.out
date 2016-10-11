@@ -1,0 +1,50 @@
+ running on   96 total cores
+ distrk:  each k-point on   24 cores,    4 groups
+ distr:  one band on    6 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.1 24Jun15 (build Nov 25 2015 16:01:35) complex                        
+  
+ POSCAR found type information on POSCAR  Cu Zn Sn S 
+ POSCAR found :  4 types and       8 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Ceperly-Alder, standard interpolation
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ WAVECAR not read
+ charge-density read from file: Name                                    
+ WARNING: random wavefunctions but no delay for mixing, default for NELMDL
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.961012714894E+03    0.96101E+03   -0.44457E+04 15208   0.198E+03
+DAV:   2     0.983556697813E+02   -0.86266E+03   -0.83660E+03 12816   0.597E+02
+DAV:   3    -0.294988514571E+02   -0.12785E+03   -0.12441E+03 14184   0.208E+02
+DAV:   4    -0.377015548287E+02   -0.82027E+01   -0.81159E+01 15208   0.512E+01
+DAV:   5    -0.379744845102E+02   -0.27293E+00   -0.27250E+00 17156   0.102E+01
+DAV:   6    -0.379846080118E+02   -0.10124E-01   -0.10121E-01 17720   0.168E+00
+DAV:   7    -0.379850108027E+02   -0.40279E-03   -0.40277E-03 18396   0.280E-01
+DAV:   8    -0.379850151038E+02   -0.43011E-05   -0.43011E-05 16876   0.318E-02
+DAV:   9    -0.379850151742E+02   -0.70371E-07   -0.70438E-07 10184   0.475E-03
+   1 F= -.37985015E+02 E0= -.37985015E+02  d E =-.492328E-15
+ writing wavefunctions
+Application 21807271 resources: utime ~2436s, stime ~27s, Rss ~93316, inblocks ~777875, outblocks ~1240167

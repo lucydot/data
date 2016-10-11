@@ -1,0 +1,24 @@
+forrtl: Inappropriate ioctl for device
+forrtl: severe (38): error during write, unit 12, file /fs2/e476/e476/lucydot/jobs/059/WAVECAR
+Image              PC                Routine            Line        Source             
+vasp_std           00000000052FD704  Unknown               Unknown  Unknown
+vasp_std           00000000053375C1  Unknown               Unknown  Unknown
+vasp_std           0000000005334E85  Unknown               Unknown  Unknown
+vasp_std           0000000000AB047F  Unknown               Unknown  Unknown
+vasp_std           0000000001681087  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+forrtl: severe (28): CLOSE error, unit 12, file "Unknown"
+Image              PC                Routine            Line        Source             
+vasp_std           0000000005301C4C  Unknown               Unknown  Unknown
+vasp_std           00000000052FE0BE  Unknown               Unknown  Unknown
+vasp_std           00000000052FD704  Unknown               Unknown  Unknown
+vasp_std           00000000053375C1  Unknown               Unknown  Unknown
+vasp_std           0000000005334E85  Unknown               Unknown  Unknown
+vasp_std           0000000000AB047F  Unknown               Unknown  Unknown
+vasp_std           0000000001681087  Unknown               Unknown  Unknown
+vasp_std           000000000040130E  Unknown               Unknown  Unknown
+vasp_std           00000000053B9861  Unknown               Unknown  Unknown
+vasp_std           00000000004011F5  Unknown               Unknown  Unknown
+[NID 03928] 2016-05-24 09:04:07 Apid 21778117: initiated application termination

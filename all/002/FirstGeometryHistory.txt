@@ -1,0 +1,86 @@
+    1  ipython notebook
+    2  ls
+    3  cd Documents/
+    4  ls
+    5  ls
+    6  mkdir Early Reading
+    7  mv comput_mat.pdf ./Early/ Reading/
+    8  ls
+    9  cd Reading/
+   10  ls
+   11  evince comput_mat.pdf &
+   12  ls
+   13  cd..
+   14  ls
+   15  mv comput_mat.pdf ./Early/
+   16  ls
+   17  cd ..
+   18  ls
+   19  cd..
+   20  cd..
+   21  ls
+   22  cd ..
+   23  ls
+   24  rm Untitled.ipynb 
+   25  exit
+   26  chrome &
+   27  exit
+   28  ipython notebook
+   29  chrome &
+   30  ipython notebook
+   31  from ipython.lib import passwd
+   32  from Ipython.lib import passwd
+   33  ipython notebook
+   34  python notebook
+   35  ipython notebook
+   36  vasp
+   37  ls
+   38  cd Dropbox/
+   39  ls
+   40  cd Science/
+   41  ls
+   42  mkdir Testing
+   43  cd Testing/
+   44  ls
+   45  vi TestFile
+   46  ls
+   47  vi TestFile 
+   48  ls
+   49  mkdir CdTEopt
+   50  ls
+   51  cd CdTEopt/
+   52  ls
+   53  vi EntryWithCollCode93942.POSCAR.vasp 
+   54  vi EntryWithCollCode93942.POSCAR.vasp 
+   55  cd
+   56  ls
+   57  mkdir PseudoPot
+   58  cd Do
+   59  cd Downloads/
+   60  ls
+   61  mv PP.tgz ~/PseudoPot/
+   62  cd ~/PseudoPot/
+   63  ls
+   64  tar -zxfv
+   65  tar -zxfv PP.tgz 
+   66  tar -zxvf PP.tgz 
+   67  ls
+   68  cd
+   69  ls
+   70  cd Dropbox/
+   71  cd Science/Testing/
+   72  ls
+   73  cd CdTEopt/
+   74  ls
+   75  cat ~/PseudoPot/potpaw_PBE/Cd/POTCAR > POTCAR
+   76  cat ~/PseudoPot/potpaw_PBE/Te/POTCAR >> POTCAR
+   77  cp ~/Downloads/INCAR ./
+   78  ls
+   79  cp ~/Downloads/KPOINTS ./
+   80  ls
+   81  cp EntryWithCollCode93942.POSCAR.vasp POSCAR
+   82  vi INCAR 
+   83  vasp
+   84  mpirun -np 8 vasp
+   85  history
+   86  history > FirstGeometryHistory.txt

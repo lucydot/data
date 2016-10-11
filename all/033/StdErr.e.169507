@@ -1,0 +1,4 @@
+slurmstepd: Job 169507 exceeded memory limit (68662348 > 65011712), being killed
+slurmstepd: Exceeded job memory limit
+mpirun: Forwarding signal 18 to job
+slurmstepd: *** JOB 169507 CANCELLED AT 2016-02-16T12:17:33 ***
